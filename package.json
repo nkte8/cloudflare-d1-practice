@@ -1,0 +1,23 @@
+{
+	"name": "cloudflare-d1-practice",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev",
+		"test": "vitest",
+		"cf-typegen": "wrangler types"
+	},
+	"devDependencies": {
+		"@cloudflare/vitest-pool-workers": "^0.8.19",
+		"prisma": "^6.9.0",
+		"typescript": "^5.5.2",
+		"vitest": "~3.2.0",
+		"wrangler": "^4.20.0"
+	},
+	"dependencies": {
+		"@prisma/adapter-d1": "^6.9.0",
+		"@prisma/client": "^6.9.0"
+	}
+}
