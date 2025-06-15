@@ -21,7 +21,7 @@ $ npx wrangler -v
 
 デスクトップ環境にて、以下を実行
 ```
-wrangler login
+npx wrangler login
 ```
 ブラウザが開き、ログイン後、ターミナルでログインに成功したログが出力される。
 
